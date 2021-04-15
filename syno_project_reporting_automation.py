@@ -1026,6 +1026,6 @@ conn.close()
 import sys
 from slacker import Slacker
 
-slack = Slacker('xoxb-1483962724294-1731766923767-x1YWHXy7Dejdb38yjB5bKTGO')
+slack = Slacker('')
 message = "Syno internal project reporting datasets have been updated"
 slack.chat.post_message('#data-set-update-log', message);

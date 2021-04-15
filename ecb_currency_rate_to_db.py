@@ -12,7 +12,7 @@ from sqlalchemy import create_engine
 import sys
 from slacker import Slacker
 
-slack = Slacker('xoxb-1483962724294-1731766923767-x1YWHXy7Dejdb38yjB5bKTGO')
+slack = Slacker('')
 
 #Downloading and unziping the file to dataframe
 url = 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip'
