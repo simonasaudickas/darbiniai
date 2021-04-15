@@ -5,6 +5,7 @@ from dictionary import data
 
 app = Flask(__name__)
 
+#irasau nauja komentara
 
 @app.route('/')
 def index():
